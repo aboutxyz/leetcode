@@ -9,4 +9,4 @@ for i in range(len(ss)):
         d[ss[i]] = i
     else:
         d[ss[i]] = i
-print max(long)
+print max(max(long),len(ss))
