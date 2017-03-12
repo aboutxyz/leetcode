@@ -16,6 +16,6 @@ class Solution(object):
 
         return maxLength
 
-ss = "pwwkewkekilwkewkek"
+ss = "pw"
 a = Solution()
 print a.lengthOfLongestSubstring(ss)

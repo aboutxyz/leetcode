@@ -8,3 +8,6 @@ class Solution(object):
         :rtype: List[str]
         """
         return filter(re.compile('(?i)([qwertyuiop]*|[asdfghjkl]*|[zxcvbnm]*)$').match, words)
+        
+a = Solution()
+print a.findWords(["hello","hjl"])
